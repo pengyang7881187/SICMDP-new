@@ -1,0 +1,24 @@
+from numpy import sqrt
+
+working_dir = '.'
+
+ITER_UPPER_BOUND = 10000
+LR_COEFF = 1. * sqrt(ITER_UPPER_BOUND)
+ETA = 0.013
+SAMPLE_Y_SIZE = 100
+TRAJ_NUM = 100000
+TRAJ_LEN = 100
+TRAIN_TRAJ_NUM = 1000
+TRAIN_TRAJ_LEN = 100
+INNER_INIT_LR = 1.
+DEFAULT_W = 1000  # 100
+
+PI_MODE = '100'  # mean, last or str(number)
+
+SEED = 74751
+
+GAMMA = 0.9
+
+CHECK_FINENESS = 1000
+
+SEPARATION_LEN = 50
